@@ -6,7 +6,7 @@
 // - output today and tomorrow using '<<' as defined in 9.8
 // - test with bad data > 2004, 13, -5
 
-/* 9.4.1
+ 9.4.1
 struct Date {
     int y;
     int m;
@@ -47,9 +47,9 @@ int main()
     //Date bad_day;
     //init_day(bad_day, 2004, 13, -5);
 }
-*/
 
-/* 9.4.2
+
+9.4.2
 struct Date {
     int y, m, d;                    // year, month, day
     Date(int y, int m, int d);      // check for valid date and initialize
@@ -93,9 +93,9 @@ catch(...) {
     cerr << "unknown error" << '\n';
     return 2;
 }
-*/
 
-/* 9.4.3
+
+9.4.3
 class Date {
     int y, m, d;
 public:
